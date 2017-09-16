@@ -1,6 +1,6 @@
 
 1.	https://github.com/cuichanjie/AcademicStudy  用你的浏览器打开，并且github已登录的情况下，可以看到你的private项目。
-2.	页面有个clone or download 点击后有个链接，https://github.com/cuichanjie/AcademicStudy.git，在你的工作电脑上，git clone https://github.com/cuichanjie/AcademicStudy.git ,可以把代码下载下来，能看到AcademicStudy文件夹
+2.	页面有个clone or download 点击后有个链接，https://github.com/cuichanjie/AcademicStudy.git ，在你的工作电脑上，git clone https://github.com/cuichanjie/AcademicStudy.git ,可以把代码下载下来，能看到AcademicStudy文件夹
 3.	在AcademicStudy/，用git status可以看到提示：修改的文件，以及没有commit的文件。提交修改需要分两个步骤，先用git add your_modified_file_name，然后git commit –m “your comment for the modification”。如果修改的文件有多个，可以用git add –A，然后git commit –m “your comment for the modification”。
 4.	将修改同步到github上: git push origin master，按照提示输入github用户名和密码。
 5.	如果不想让git管理某个文件，可以编辑.gitignore文件，写上文件名，有必要的话加上文件路径。在.gitignore写入*.dat表示所有dat后缀的文件都被忽略。编译产生的二进制文件不需要托管到github上，所以一般会让git忽略掉这些文件。
